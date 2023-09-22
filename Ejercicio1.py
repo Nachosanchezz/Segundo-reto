@@ -1,8 +1,8 @@
-from math import cell  
+from math import ceil
 
 t = int(input())
 
 for _ in range(t):
     a, b, c = map(int, input().split())
     d = abs(a-b)
-    print(cell(d/(c*2)))     #Cell es redondear hacia arriba
+    print(ceil(d/(c*2)))     #Ceil es redondear hacia arriba
